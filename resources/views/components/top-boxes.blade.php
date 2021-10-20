@@ -1,8 +1,13 @@
 <div class="container mx-auto px-4">
-    <div class="flex w-100">
-        <div class="w-3/12"> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"></div>
-        <div class="w-3/12"> box2</div>
-        <div class="w-3/12"> box3</div>
-        <div class="w-3/12"> box4</div>
+    <div class="flex w-100 ">
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
+        <div class="w-3/12 mx-2 my-4"><a href=""> <img src="{{ asset('images/krys1.jpg') }}" alt="tag"> </a></div>
     </div>
 </div>
