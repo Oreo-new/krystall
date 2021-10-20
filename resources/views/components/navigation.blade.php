@@ -25,7 +25,7 @@
         <script>
 
           function openNav(){ 
-            document.getElementById("mySidenav").style.display = "block";
+            document.getElementById("mySidenav").style.display = "200px";
             document.getElementById("body").style.marginRight = "200px";
 
           }
