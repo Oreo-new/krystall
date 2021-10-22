@@ -1,10 +1,10 @@
 <div class="p-5 bg-center bg-cover bg-auto bg-no-repeat" style="background-image: url('{{ asset('images/Bakgrunnsbilde.jpg') }}'); background-size: 100% 100%">
-  <div class="container mx-auto flex align-center justify-center relative">
+  <div class="container mx-auto px-4 flex align-center justify-center relative">
     <div>
       <img src="{{ asset('images/logo_white.png') }}" alt="logo">
     </div>
-    <div id="btn-nav" class="absolute right-0 group cursor-pointer w-20" onclick="openNav()">
-      <span class="text-white group-hover:text-green-400 duration-100">Meny</span>
+    <div id="btn-nav" class="absolute right-4 group cursor-pointer" onclick="openNav()">
+      <span class="text-white group-hover:text-green-400 duration-100 text-sm">Meny</span>
       <span class="bg-white block m-1 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
       <span class="bg-white block m-1 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
       <span class="bg-white block m-1 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
@@ -40,6 +40,7 @@
               mySidenav.classList.remove("-right-72");
               mySidenav.classList.add("right-0");
               body.style.marginRight = "280px";
+              body.style.marginLeft = "-280px";
                 body.style.transition = "right";
                   body.style.transition = "ease";
                     body.style.transition = ".3s";
@@ -55,9 +56,7 @@
             mySidenav.classList.remove("right-0");
             mySidenav.classList.add("-right-72");
             body.style.marginRight = "0px";
-              body.style.transition = "left";
-                body.style.transition = "ease-in-out";
-                  body.style.transition = ".3s";
+            body.style.marginLeft = "0px";
           }
           
           // var nav;
