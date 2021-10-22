@@ -13,13 +13,13 @@
     <div class="relative">
       <ul id="mySidenav" class="bg-green-700 p-10 py-24 top-0 h-full block w-72 fixed -right-72" style="transition: right ease .3s; box-shadow: -2px 0 4px -1px rgba(0, 0, 0, 0.5);">
         <a href="javascript:void(0)" class="text-white text-2xl font-bold leading-8 absolute p-5 top-0 right-0" onclick="closeNav()">x</a>
-        <li><a href="" class="text-blue-400 font-medium text-xl leading-10 hover:text-blue-400 transition duration-150 ">Hjem</a></li>
-        <li><a href="" class="text-white font-medium text-xl leading-10 hover:text-blue-400 transition duration-150 ">Veildere alfabetisk</a></li>
-        <li><a href="" class="text-white font-medium text-xl leading-10 hover:text-blue-400 transition duration-150 ">Medium magasin</a></li>
-        <li><a href="" class="text-white font-medium text-xl leading-10 hover:text-blue-400 transition duration-150 ">Dagshoroskop</a></li>
-        <li><a href="" class="text-white font-medium text-xl leading-10 hover:text-blue-400 transition duration-150 ">Artikkelarkiv</a></li>
-        <li><a href="" class="text-white font-medium text-xl leading-10 hover:text-blue-400 transition duration-150 ">Ordbok</a></li>
-        <li><a href="" class="text-white font-medium text-xl leading-10 hover:text-blue-400 transition duration-150 ">Prisopplysning</a></li>
+        <li><a href="" class="text-blue-400 font-med text-xl leading-10 hover:text-blue-400 transition duration-150 ">Hjem</a></li>
+        <li><a href="" class="text-white font-med text-xl leading-10 hover:text-blue-400 transition duration-150 ">Veildere alfabetisk</a></li>
+        <li><a href="" class="text-white font-med text-xl leading-10 hover:text-blue-400 transition duration-150 ">Medium magasin</a></li>
+        <li><a href="" class="text-white font-med text-xl leading-10 hover:text-blue-400 transition duration-150 ">Dagshoroskop</a></li>
+        <li><a href="" class="text-white font-med text-xl leading-10 hover:text-blue-400 transition duration-150 ">Artikkelarkiv</a></li>
+        <li><a href="" class="text-white font-med text-xl leading-10 hover:text-blue-400 transition duration-150 ">Ordbok</a></li>
+        <li><a href="" class="text-white font-med text-xl leading-10 hover:text-blue-400 transition duration-150 ">Prisopplysning</a></li>
       </ul>
     </div>
   </div>
