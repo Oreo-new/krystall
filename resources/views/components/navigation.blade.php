@@ -3,12 +3,12 @@
     <div>
       <img src="{{ asset('images/logo_white.png') }}" alt="logo">
     </div>
-    <div id="btn-nav" class="absolute right-4 group cursor-pointer" onclick="openNav()">
+    <div id="btn-nav" class="absolute right-4 group cursor-pointer flex flex-col items-center justify-start" onclick="openNav()">
       <span class="text-white group-hover:text-green-400 duration-100 text-sm">Meny</span>
-      <span class="bg-white block m-1 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
-      <span class="bg-white block m-1 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
-      <span class="bg-white block m-1 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
-      <span class="bg-white block m-1 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
+      <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
+      <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
+      <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
+      <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
     </div>
     <div class="relative">
       <ul id="mySidenav" class="bg-green-700 p-10 py-24 top-0 h-full block w-72 fixed -right-72" style="transition: right ease .3s; box-shadow: -2px 0 4px -1px rgba(0, 0, 0, 0.5);">
