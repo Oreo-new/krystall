@@ -16,6 +16,7 @@
         <!-- Styles -->
         
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+				<link href="{{ asset('css/flipster.min.css') }}" rel="stylesheet">
 
 		
 
@@ -24,7 +25,7 @@
 		<!-- Scripts -->
 		@stack('header-scripts')
 		{{-- <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" /> --}}
-		{{-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> --}}
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 	
 		
 	</head>
@@ -37,7 +38,15 @@
 
 			<!-- Page Content -->
 			<main>
-				{{ $slot }}
+				<div class="container mx-auto px-4 flex">
+					<x-left-sidebar></x-left-sidebar>
+					<div class="main-content flex-auto">
+						<x-flipster></x-flipster>
+						{{ $slot }}
+					</div>
+					<x-right-sidebar></x-right-sidebar>
+				</div>
+				
 			</main>
 
 			<footer>
@@ -50,6 +59,7 @@
 
 		{{-- <script type="text/javascript" src="https://unpkg.com/aos@next/dist/aos.js"></script> --}}
 		<script src="{{ asset('js/app.js') }}"></script>
+		<script src="{{ asset('js/flipster.min.js') }}"></script>
 		<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
 		{{-- <script defer>
 			AOS.init({

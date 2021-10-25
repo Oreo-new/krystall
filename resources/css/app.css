@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.left-sidebar {
+  width: 15%;
+}
+.main-content {
+  width: 75%;
+}
+.left-sidebar {
+  width: 10%;
+}
