@@ -37,11 +37,13 @@
 			</header>
 
 			<!-- Page Content -->
+			<div class="sm:hidden">
+				<x-flipster></x-flipster>
+			</div>
 			<main>
 				<div class="container mx-auto px-4 flex">
 					<x-left-sidebar></x-left-sidebar>
 					<div class="main-content flex-auto">
-						<x-flipster></x-flipster>
 						{{ $slot }}
 					</div>
 					<x-right-sidebar></x-right-sidebar>

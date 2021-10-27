@@ -1,7 +1,7 @@
 <div class="m-3 p-3">
     <div id="carousel" class="my-flipster mb-10">
         <!-- This is flipster -->
-        <ul>
+        <ul class="">
             <li> 
                 <a href="">
                     <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95602-1-E-karusell-lara.jpg') }}')">
@@ -58,48 +58,6 @@
                 </a> 
             </li>
         </ul>
-    </div>
-    <div class="">
-        <div class="border-t-2">
-            <div class="flex w-full py-5 justify-between items-start group">
-                <div class="">
-                    <div>
-                        <p class="text-2xl font-bold group-hover:text-green-500 duration-300">
-                            <a href="">Veilederen Tina bruker kun sine synske evner.</a>
-                        </p>
-                    </div>
-                    <div>
-                        <p>Tina er av sigøyner-/taterslekt. Hun har skjønt at hennes nedarvede blodslinjer forsterker hennes synske evner. Den dagen hun begynte å…</p> 
-                    </div>
-                    <div class="">
-                        <a href="" class="text-green-500 hover:text-black duration-300">Les mer...</a>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="" src="{{ asset('images/6ddb2450462828abf9aabc88d6bfb7fe_L.jpg') }}" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="border-t-2">
-            <div class="flex w-full py-5 justify-between items-start group">
-                <div class="">
-                    <div>
-                        <p class="text-2xl font-bold group-hover:text-green-500 duration-300">
-                            <a href="">Klarsynte Nora er ekspert i temaene kjærlighet og arbeid!</a>
-                        </p>
-                    </div>
-                    <div>
-                        <p>Nora er en meget dyktig spådame, som er klarsynt fra barnsben. Hun er populær og har mange faste kunder. Du…</p> 
-                    </div>
-                    <div class="">
-                        <a href="" class="text-green-500 hover:text-black duration-300">Les mer...</a>
-                    </div>
-                </div>
-                <div class="">
-                    <img class="" src="{{ asset('images/4246b121d2dc949b8f082c5f57840a3b_M.jpg') }}" alt="">
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 

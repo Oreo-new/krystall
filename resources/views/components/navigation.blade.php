@@ -1,9 +1,9 @@
 <div class="p-5 bg-center bg-cover bg-auto bg-no-repeat" style="background-image: url('{{ asset('images/Bakgrunnsbilde.jpg') }}'); background-size: 100% 100%">
-  <div class="container mx-auto px-4 flex align-center justify-center relative">
-    <div>
-      <img src="{{ asset('images/logo_white.png') }}" alt="logo">
+  <div class="container mx-auto px-4 flex items-center justify-center relative">
+    <div class="">
+      <img class="w-full" src="{{ asset('images/logo_white.png') }}" alt="logo">
     </div>
-    <div id="btn-nav" class="absolute right-4 group cursor-pointer flex flex-col items-center justify-start" onclick="openNav()">
+    <div id="btn-nav" class="md:absolute right-4 group cursor-pointer flex flex-col items-end w-32  justify-start md:w-20 md:items-center" onclick="openNav()">
       <span class="text-white group-hover:text-green-400 duration-100 text-sm">Meny</span>
       <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
       <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
@@ -30,7 +30,6 @@
         <script>
 
           function openNav(){ 
-            // let nav = document.getElementById("mySidenav").style.width = "200px";
             let body = document.getElementById("body");
             
             let mySidenav = document.getElementById('mySidenav');
@@ -58,17 +57,6 @@
             body.style.marginRight = "0px";
             body.style.marginLeft = "0px";
           }
-          
-          // var nav;
-          // function openNav(){
-          //   if ( nav == 1) {
-          //     document.getElementById("mySidenav").style.display = "block";
-          //     return nav = 0;
-          //   } else {
-          //     document.getElementById("mySidenav").style.display = "none";
-          //     return nav = 1;
-          //   }
-          // }
 
         </script>
     @endpush
