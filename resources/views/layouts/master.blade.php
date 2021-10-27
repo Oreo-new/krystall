@@ -37,13 +37,16 @@
 			</header>
 
 			<!-- Page Content -->
-			<div class="sm:hidden">
+			{{-- <div class="sm:hidden">
 				<x-flipster></x-flipster>
-			</div>
+			</div> --}}
 			<main>
-				<div class="container mx-auto px-4 flex">
+				<div class="container mx-auto px-4 flex flex-wrap">
+					<div class="w-full">
+						<x-flipster></x-flipster>
+					</div>
 					<x-left-sidebar></x-left-sidebar>
-					<div class="main-content flex-auto">
+					<div class="main-content flex-auto w-full md:w-wmid">
 						{{ $slot }}
 					</div>
 					<x-right-sidebar></x-right-sidebar>

@@ -1,16 +1,21 @@
 module.exports = {
   purge: [
 
-    './resources/**/*.blade.php',
-
-    './resources/**/*.js',
-
-    './resources/**/*.vue',
 
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      width: {
+
+        'wleft': '15%',
+
+        'wmid': '75%',
+
+        'wright': '10%',
+
+      }
+    },
   },
   variants: {
     extend: {},

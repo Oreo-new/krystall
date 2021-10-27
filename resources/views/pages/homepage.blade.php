@@ -1,9 +1,6 @@
 @section('title', 'Hjem' )
 
 <x-app-layout>
-    <div class="hidden sm:block">
-        <x-flipster></x-flipster>testing
-    </div>
 <div class="w-full p-3 m-3">
         <div class="flex w-full py-5 border-t-2 justify-between items-start group">
             <div class="w-2/5">

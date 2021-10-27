@@ -1,4 +1,4 @@
-<div class="left-sidebar flex-auto">
+<div class="left-sidebar flex-auto w-full md:w-wleft -mt-80">
     <div class="flex flex-col items-center px-8 pb-7">
         <a href="">
             <img src="{{ asset('images/call-icon.png') }}" alt="small icon">
