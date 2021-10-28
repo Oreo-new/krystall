@@ -1,5 +1,5 @@
-<div class="right-sidebar flex-auto hidden md:block md:w-wright">
-    <div class="m-3 p-3">
+<div class="right-sidebar flex-auto hidden md:block md:w-wright -mt-96">
+    <div class="mx-3 px-3">
         <div class="py-4 bg-green-500 rounded text-center">
             <a href="" class="font-bold text-white text-lg duration-300 hover:text-black">Horoskop</a>
          </div>

@@ -4,56 +4,56 @@
         <ul class="">
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95602-1-E-karusell-lara.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95602-1-E-karusell-lara.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                     </div>
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95090-1-E-karusell-1.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95090-1-E-karusell-1.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95089-1-E-karusell.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95089-1-E-karusell.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95759-1-E-karusell.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95759-1-E-karusell.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95270-1-E-karusell-elisabeth-ny.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95270-1-E-karusell-elisabeth-ny.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95122-1-E-karusell.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95122-1-E-karusell.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95423-1-E-karusell.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95423-1-E-karusell.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95242-1-E-karusell-runa.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95242-1-E-karusell-runa.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
             <li> 
                 <a href="">
-                    <div class="w-64 h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95015-1-E-karusell.jpg') }}')">
+                    <div class="w-44 h-60 border-2 lg:border-0 lg:w-64 lg:h-80 bg-no-repeat bg-contain" style="background-image: url('{{ asset('images/95015-1-E-karusell.jpg') }}')">
                     <!-- <img class="h-96" src="{{ asset('images/95602-1-E-karusell-lara.jpg') }}" alt=""> -->
                 </a> 
             </li>
@@ -71,11 +71,11 @@
                 spacing: -0.4,
                 nav: false,
                 buttons: false,
-                start: '0',
-                fadeIn: 400,
+                start: 'center',
+                fadeIn: 300,
                 loop: true,
                 autoplay: 5000,
-                pauseOnHover: true,
+                pauseOnHover: false,
             });
 
         </script>

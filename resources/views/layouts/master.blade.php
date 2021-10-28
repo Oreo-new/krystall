@@ -41,7 +41,7 @@
 				<x-flipster></x-flipster>
 			</div> --}}
 			<main>
-				<div class="container mx-auto px-4 flex flex-wrap">
+				<div class="container mx-auto px-4 flex flex-wrap flex-col">
 					<div class="w-full">
 						<x-flipster></x-flipster>
 					</div>
