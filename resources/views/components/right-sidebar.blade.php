@@ -4,7 +4,7 @@
             <a href="" class="font-bold text-white text-lg duration-300 hover:text-black">Horoskop</a>
          </div>
          <div>
-            @foreach (range(1,15)as $item)
+            @foreach (range(1,15) as $item)
             <div class="mt-4">
                <a href="">
                   <img src="{{ asset('images/krys1.jpg') }}" alt="tag">
