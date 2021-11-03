@@ -1,10 +1,10 @@
-<div class="left-sidebar flex-auto w-full md:w-wleft lg:-mt-96 lg:m-3 lg:p-3">
-    <div class="hidden md:flex flex-col items-center px-8 pb-7">
+<div class="left-sidebar flex-auto w-full md:w-wleft md:-mt-96">
+    <div class="hidden md:flex flex flex-col items-center px-8 pb-7">
         <a href="">
-            <img class="md:hidden" src="{{ asset('images/call-icon.png') }}" alt="small icon">
+            <img class="block" src="{{ asset('images/call-icon.png') }}" alt="small icon">
         </a>
         <a href="">
-            <p class="text-center text-xl leading-5 font-bold text-green-400 md:mt-10 hover:text-black duration-300">Komplett<br>veilederliste</p>
+            <p class="text-center text-xl leading-5 font-bold text-green-400 hover:text-black duration-300">Komplett<br>veilederliste</p>
         </a>
     </div>
     <div class="w-full md:hidden">
@@ -16,7 +16,7 @@
             <span class="block text-center font-bold text-2xl">Utvalgte veiledere</span>
         </div>
     </div>
-    <div class="px-2 py-3 m-2 md:m-0 md:p-0 flex flex-wrap md:flex-nowrap md:flex-col justify-center">
+    <div class="px-2 py-3 m-2 flex flex-wrap md:flex-nowrap md:flex-col justify-center lg:p-2 lg:m-2 xl:m-3 xl:p-3">
         @foreach (range(1,20) as $item)
         <div class="m-4 md:m-0 md:mt-7 border-2 w-2/5 md:w-full">
             <a href="">
