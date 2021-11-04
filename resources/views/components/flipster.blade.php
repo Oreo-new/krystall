@@ -1,4 +1,4 @@
-<div class="m-3 p-3 md:pl-12 xl:p-3">
+<div class="m-3 p-3 xl:p-3">
     <div id="carousel" class="my-flipster mb-10">
         <!-- This is flipster -->
         <ul class="">

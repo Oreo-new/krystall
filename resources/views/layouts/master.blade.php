@@ -41,15 +41,17 @@
 				<x-flipster></x-flipster>
 			</div> --}}
 			<main>
-				<div class="container mx-auto px-4 w-full flex flex-wrap flex-col md:flex-row">
+				<div class="container px-6 sm:px-4 mx-auto flex flex-wrap flex-col md:flex-row">
 					<div class="w-full md:flex md:justify-end lg:justify-center">
-						<div class="xl:w-full md:w-4/5 lg:w-3/4">
+						<div class="w-full lg:w-2/3 xl:w-full">
 							<x-flipster></x-flipster>
 						</div>
 					</div>
 					<x-left-sidebar></x-left-sidebar>
-					<div class="main-content flex-auto w-full md:w-wmid lg:w-3/5 lg:p-2 lg:m-2">
-						{{ $slot }}
+					<div class="main-content flex-auto w-full md:w-2/3 lg:w-wmid xl:w-lgmid">
+						<div class="m-2 p-2">
+							{{ $slot }}
+						</div>
 					</div>
 					<x-right-sidebar></x-right-sidebar>
 				</div>

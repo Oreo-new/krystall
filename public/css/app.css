@@ -6827,15 +6827,27 @@ video {
 }
 
 .w-wleft {
-  width: 15%;
+  width: 18%;
 }
 
 .w-wmid {
-  width: 75%;
+  width: 68%;
 }
 
 .w-wright {
-  width: 10%;
+  width: 14%;
+}
+
+.w-lgleft {
+  width: 15%;
+}
+
+.w-lgmid {
+  width: 74%;
+}
+
+.w-lgright {
+  width: 11%;
 }
 
 .min-w-0 {
@@ -38145,15 +38157,27 @@ video {
   }
 
   .sm\:w-wleft {
-    width: 15%;
+    width: 18%;
   }
 
   .sm\:w-wmid {
-    width: 75%;
+    width: 68%;
   }
 
   .sm\:w-wright {
-    width: 10%;
+    width: 14%;
+  }
+
+  .sm\:w-lgleft {
+    width: 15%;
+  }
+
+  .sm\:w-lgmid {
+    width: 74%;
+  }
+
+  .sm\:w-lgright {
+    width: 11%;
   }
 
   .sm\:min-w-0 {
@@ -69385,15 +69409,27 @@ video {
   }
 
   .md\:w-wleft {
-    width: 15%;
+    width: 18%;
   }
 
   .md\:w-wmid {
-    width: 75%;
+    width: 68%;
   }
 
   .md\:w-wright {
-    width: 10%;
+    width: 14%;
+  }
+
+  .md\:w-lgleft {
+    width: 15%;
+  }
+
+  .md\:w-lgmid {
+    width: 74%;
+  }
+
+  .md\:w-lgright {
+    width: 11%;
   }
 
   .md\:min-w-0 {
@@ -100625,15 +100661,27 @@ video {
   }
 
   .lg\:w-wleft {
-    width: 15%;
+    width: 18%;
   }
 
   .lg\:w-wmid {
-    width: 75%;
+    width: 68%;
   }
 
   .lg\:w-wright {
-    width: 10%;
+    width: 14%;
+  }
+
+  .lg\:w-lgleft {
+    width: 15%;
+  }
+
+  .lg\:w-lgmid {
+    width: 74%;
+  }
+
+  .lg\:w-lgright {
+    width: 11%;
   }
 
   .lg\:min-w-0 {
@@ -131865,15 +131913,27 @@ video {
   }
 
   .xl\:w-wleft {
-    width: 15%;
+    width: 18%;
   }
 
   .xl\:w-wmid {
-    width: 75%;
+    width: 68%;
   }
 
   .xl\:w-wright {
-    width: 10%;
+    width: 14%;
+  }
+
+  .xl\:w-lgleft {
+    width: 15%;
+  }
+
+  .xl\:w-lgmid {
+    width: 74%;
+  }
+
+  .xl\:w-lgright {
+    width: 11%;
   }
 
   .xl\:min-w-0 {
@@ -163105,15 +163165,27 @@ video {
   }
 
   .\32xl\:w-wleft {
-    width: 15%;
+    width: 18%;
   }
 
   .\32xl\:w-wmid {
-    width: 75%;
+    width: 68%;
   }
 
   .\32xl\:w-wright {
-    width: 10%;
+    width: 14%;
+  }
+
+  .\32xl\:w-lgleft {
+    width: 15%;
+  }
+
+  .\32xl\:w-lgmid {
+    width: 74%;
+  }
+
+  .\32xl\:w-lgright {
+    width: 11%;
   }
 
   .\32xl\:min-w-0 {

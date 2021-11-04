@@ -8,12 +8,12 @@ module.exports = {
     extend: {
       width: {
 
-        'wleft': '15%',
-
-        'wmid': '75%',
-
-        'wright': '10%',
-
+        'wleft': '18%',
+        'wmid': '68%',
+        'wright': '14%',
+        'lgleft': '15%',
+        'lgmid': '74%',
+        'lgright': '11%',
       }
     },
   },
