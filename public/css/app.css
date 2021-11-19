@@ -619,6 +619,30 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .top-items .even {
+    padding-left: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-items .even {
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .top-items .odd {
+    padding-right: 0.75rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .top-items .odd {
+    padding-right: 0px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

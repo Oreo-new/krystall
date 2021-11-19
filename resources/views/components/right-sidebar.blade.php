@@ -1,4 +1,4 @@
-<div class="right-sidebar flex-auto hidden lg:w-wright xl:w-lgright md:-mt-96 lg:block ">
+<div class="right-sidebar flex-auto hidden lg:w-wright xl:w-lgright  lg:block {{ Request::path() ==  '/' ? 'md:-mt-96' : 'mt-32'  }}">
     <div class="m-2 p-2">
         <div class="py-4 bg-green-500 rounded text-center">
             <a href="" class="font-bold text-white text-lg duration-300 hover:text-black">Horoskop</a>

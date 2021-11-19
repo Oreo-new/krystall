@@ -18,3 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/' , [ PageController::class , 'homepage' ] )->name('homepage');
+Route::get('/alfabetisk' , [ PageController::class , 'alfabetisk' ] )->name('alfabetisk');
+Route::get('/alfabetisk/spakoner' , [ PageController::class , 'spakoner' ] )->name('spakoner');

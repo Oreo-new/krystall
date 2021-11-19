@@ -36,17 +36,15 @@
 				<x-navigation></x-navigation>
 			</header>
 
-			<!-- Page Content -->
-			{{-- <div class="sm:hidden">
-				<x-flipster></x-flipster>
-			</div> --}}
 			<main>
 				<div class="container mx-auto flex flex-wrap flex-col md:flex-row">
-					<div class="w-full md:flex md:justify-end lg:justify-center">
-						<div class="w-full lg:w-2/3 xl:w-full">
-							<x-flipster></x-flipster>
+					@if(Request::path() == '/')
+						<div class="w-full md:flex md:justify-end lg:justify-center">
+							<div class="w-full lg:w-2/3 xl:w-full">
+								<x-flipster></x-flipster>
+							</div>
 						</div>
-					</div>
+					@endif
 					<x-left-sidebar></x-left-sidebar>
 					<div class="main-content flex-auto w-full md:w-2/3 lg:w-wmid xl:w-lgmid">
 						<div class="m-2 p-2">
@@ -58,11 +56,21 @@
 				
 			</main>
 
-			<footer>
-				{{-- <x-footer></x-footer> --}}
-			</footer>
+			<x-footer></x-footer>	
 
 		</div>
+		@once
+		@push('scripts')
+		<script>
+			var Till_toppen = document.getElementById("top");
+
+			function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+			}
+		</script>
+		@endpush
+		@endonce
 
 		{{-- @livewireScripts --}}
 
@@ -70,6 +78,7 @@
 		<script src="{{ asset('js/app.js') }}"></script>
 		<script src="{{ asset('js/flipster.min.js') }}"></script>
 		<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+		{{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> --}}
 		{{-- <script defer>
 			AOS.init({
 				disable: 'mobile',
