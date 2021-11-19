@@ -1,4 +1,4 @@
-<div class="left-sidebar flex-auto w-full md:w-1/6 lg:w-wleft xl:w-lgleft {{ Request::path() ==  '/' ? 'lg:-mt-96' : 'mt-32'  }}">
+<div class="left-sidebar flex-auto w-full md:w-1/6 lg:w-wleft xl:w-lgleft {{ Request::path() ==  '/' ? 'lg:-mt-96' : 'mt-32 order-2 md:order-1'  }}">
     <div class="m-2 p-2">
         <div class="hidden md:flex flex flex-col items-center pb-7">
             <a href="">

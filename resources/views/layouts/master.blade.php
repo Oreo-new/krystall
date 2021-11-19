@@ -46,7 +46,7 @@
 						</div>
 					@endif
 					<x-left-sidebar></x-left-sidebar>
-					<div class="main-content flex-auto w-full md:w-2/3 lg:w-wmid xl:w-lgmid">
+					<div class="main-content flex-auto w-full md:w-2/3 lg:w-wmid xl:w-lgmid  {{ Request::path() ==  '/' ? '' : 'order-1 md:order-2'  }}">
 						<div class="m-2 p-2">
 							{{ $slot }}
 						</div>
