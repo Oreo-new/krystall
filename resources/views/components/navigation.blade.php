@@ -1,9 +1,9 @@
 <div class="p-5 bg-center bg-cover bg-auto bg-no-repeat" style="background-image: url('{{ asset('images/Bakgrunnsbilde.jpg') }}'); background-size: 100% 100%">
-  <div class="container mx-auto px-4 mx-2 flex items-center justify-center relative">
+  <div class="container mx-auto mx-2 flex items-center justify-center relative">
     <div class="">
       <img class="w-full" src="{{ asset('images/logo_white.png') }}" alt="logo">
     </div>
-    <div id="btn-nav" class="md:absolute right-6 group cursor-pointer flex flex-col items-end w-32  justify-start md:w-20 " onclick="openNav()">
+    <div id="btn-nav" class="px-2 mx-2 md:absolute sm:right-8 lg:right-16 xl:right-20 2xl:right-24 group cursor-pointer flex flex-col items-end w-32  justify-start md:w-20 " onclick="openNav()">
       <span class="text-white group-hover:text-green-400 duration-100 text-sm">Meny</span>
       <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
       <span class="bg-white block m-0.5 h-1 w-8 group-hover:bg-green-400 duration-100"></span>
