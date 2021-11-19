@@ -59,18 +59,6 @@
 			<x-footer></x-footer>	
 
 		</div>
-		@once
-		@push('scripts')
-		<script>
-			var Till_toppen = document.getElementById("top");
-
-			function topFunction() {
-			document.body.scrollTop = 0;
-			document.documentElement.scrollTop = 0;
-			}
-		</script>
-		@endpush
-		@endonce
 
 		{{-- @livewireScripts --}}
 
