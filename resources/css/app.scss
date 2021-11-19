@@ -15,3 +15,16 @@
 // .right-sidebar {
 //   width: 10%;
 // }
+
+@layer components {
+    .top-items {
+        .even {
+            @apply md:pl-3 lg:pl-0;
+        }
+    }
+    .top-items {
+        .odd {
+            @apply md:pr-3 lg:pr-0;
+        } 
+    }
+}
