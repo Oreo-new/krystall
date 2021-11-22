@@ -2,11 +2,11 @@
 
 <x-app-layout>
 
-  <div class="mt-32">
+  <div class="mt-20 md:mt-32">
     <div>
       <p class="text-3xl text-center mb-12">Veiledere</p>
     </div>
-    <div class="grid grid-rows-6 grid-flow-col gap-4">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
 
       @foreach (range(1, 15) as $item)
       <div>
