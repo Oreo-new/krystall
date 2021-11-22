@@ -1,6 +1,6 @@
 @section('title', 'Spakoner' )
 
-<x-app-layout>
+<x-app-layout> 
 
 <div class="mt-16 md:mt-6">
   <div class="md:flex flex-row-reverse justify-center items-center">

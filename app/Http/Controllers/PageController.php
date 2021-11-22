@@ -17,10 +17,10 @@ class PageController extends Controller
     public function spakoner(){
         return view('pages.spakoner');
     }
-    public function hosroskops(){
-        return view('pages.hosroskops');
+    public function horoskops(){
+        return view('pages.horoskops');
     }
-    public function hosroskop(){
-        return view('pages.hosroskop');
+    public function horoskop(){
+        return view('pages.horoskop');
     }
 }
