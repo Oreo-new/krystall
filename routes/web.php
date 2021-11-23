@@ -22,3 +22,5 @@ Route::get('/alfabetisk' , [ PageController::class , 'alfabetisk' ] )->name('alf
 Route::get('/alfabetisk/spakoner' , [ PageController::class , 'spakoner' ] )->name('spakoner');
 Route::get('/horoskops' , [ PageController::class , 'horoskops' ] )->name('horoskops');
 Route::get('/horoskops/horoskop' , [ PageController::class , 'horoskop' ] )->name('horoskop');
+Route::get('/artikkelarkiv' , [ PageController::class , 'artikkelarkiv' ] )->name('artikkelarkiv');
+Route::get('/artikkelarkiv/artikkel' , [ PageController::class , 'artikkel' ] )->name('artikkel');

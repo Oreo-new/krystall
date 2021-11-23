@@ -23,4 +23,10 @@ class PageController extends Controller
     public function horoskop(){
         return view('pages.horoskop');
     }
+    public function artikkelarkiv(){
+        return view('pages.artikkelarkiv');
+    }
+    public function artikkel(){
+        return view('pages.artikkel');
+    }
 }
