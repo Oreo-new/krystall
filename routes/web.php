@@ -24,3 +24,5 @@ Route::get('/horoskops' , [ PageController::class , 'horoskops' ] )->name('horos
 Route::get('/horoskops/horoskop' , [ PageController::class , 'horoskop' ] )->name('horoskop');
 Route::get('/artikkelarkiv' , [ PageController::class , 'artikkelarkiv' ] )->name('artikkelarkiv');
 Route::get('/artikkelarkiv/artikkel' , [ PageController::class , 'artikkel' ] )->name('artikkel');
+Route::get('/ordboks' , [ PageController::class , 'ordboks' ] )->name('ordboks');
+Route::get('/ordboks/ordbok' , [ PageController::class , 'ordbok' ] )->name('ordbok');

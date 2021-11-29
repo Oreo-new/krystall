@@ -29,4 +29,10 @@ class PageController extends Controller
     public function artikkel(){
         return view('pages.artikkel');
     }
+    public function ordboks(){
+        return view('pages.ordboks');
+    }
+    public function ordbok(){
+        return view('pages.ordbok');
+    }
 }
