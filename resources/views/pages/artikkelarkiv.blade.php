@@ -9,7 +9,7 @@
     </div>
     @foreach (range(1,4) as $item)
         <div class="my-3">
-            <a class="text-green-500 font-medium text-lg md:text-2xl" href="">Veilederen Tina bruker kun sine synske evner.</a>
+            <a class="text-green-500 font-medium text-lg md:text-xl hover:text-black duration-300" href="">Veilederen Tina bruker kun sine synske evner.</a>
         </div>
     @endforeach
 </div>

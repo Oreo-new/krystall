@@ -15,7 +15,7 @@
         <a class="text-green-500 text-xl font-bold" href="">21058771</a>
     </div>
     <div class="py-2">
-        <p class="font-bold text-sm font-semibold">Tina er av sigøyner-/taterslekt. Hun har skjønt at hennes nedarvede blodslinjer forsterker hennes synske evner. 
+        <p class="text-sm font-semibold">Tina er av sigøyner-/taterslekt. Hun har skjønt at hennes nedarvede blodslinjer forsterker hennes synske evner. 
             Den dagen hun begynte å jobbe på teletorget følte Tina at hun endelig var kommet «hjem.» Hun bruker ingen 
             hjelpemidler når hun arbeider, kun sine egne evner. Mange års studier innenfor psykologi har hjulpet mer enn 
             kort, pendler og andre hjelpemidler. Tina gir coaching og rådgivning innenfor områder som bl.a. rus og psykiatri, 
